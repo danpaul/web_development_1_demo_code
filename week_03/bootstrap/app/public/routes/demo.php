@@ -2,7 +2,7 @@
 
 // handle GET request for login form demo
 Route::add('/demo/bootstrap-login', function () {
-    require(__DIR__ . "/../views/pages/demo_boostrap_login.php");
+    require(__DIR__ . "/../views/pages/demo_bootsrap_login.php");
 });
 
 // handle POST request from login form demo (submitting the data)

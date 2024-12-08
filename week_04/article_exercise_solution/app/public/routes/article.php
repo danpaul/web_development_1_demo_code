@@ -23,3 +23,8 @@ Route::add('/article/([a-z-0-9-]*)', function ($articleId) {
     $article = $articleController->get($articleId); // get data data for the view
     require_once(__DIR__ . "/../views/pages/article.php"); // load the view
 });
+
+Route::add("/api/messages", function(){
+    $messages = ["hello", "good-bye"];
+    echo json_encode($messages);
+});
