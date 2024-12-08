@@ -14,7 +14,7 @@ The following files demonstrate the basics of the JS language:
 
 - Basics: `app/public/assets/js/example-basics.js`
 - Arrays and functions: `app/public/assets/js/example-arrays-functions.js`
-- Classes: - Basics: `app/public/assets/js/example-classes.js`
+- Classes: `app/public/assets/js/example-classes.js`
 
 You can see the output of these scripts by visiting [http://localhost/js-demo](http://localhost/js-demo) and viewing the console.
 
