@@ -1,7 +1,8 @@
 // Variables and Data Types
 // Declaring variables using `let`, `const`, and `var` (prefer `let` and `const` in modern JS)
 let userName = "Alice"; // String
-const age = 25; // Number
+const age = 25; // Numbe
+
 let isStudent = true; // Boolean
 let hobbies = ["reading", "coding", "hiking"]; // Array
 
@@ -35,6 +36,10 @@ function checkAdult(age) {
  * @param {Array} array - An array of items.
  */
 function printHobbies(array) {
+  // array.forEach((i) => {
+  //   console.log(i);
+  // })
+
   console.log("Your hobbies are:");
   for (let i = 0; i < array.length; i++) {
     console.log(`- ${array[i]}`);
@@ -53,7 +58,7 @@ console.log(`The sum of 5 and 3 is: ${add(5, 3)}`); // Prints: The sum of 5 and 
 
 // Objects
 // Creating and accessing object properties
-let user = {
+const user = {
   name: "Alice",
   age: 25,
   isStudent: true,
@@ -61,5 +66,9 @@ let user = {
     return `Hi, I'm ${this.name} and I'm ${this.age} years old.`;
   },
 };
+
+// user.name = "Älicia";
+// user.greet = "hi";
+// user.greet = () => { return "sup"; }
 
 console.log(user.greet()); // Prints: Hi, I'm Alice and I'm 25 years old.

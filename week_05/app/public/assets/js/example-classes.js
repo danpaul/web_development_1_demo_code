@@ -52,7 +52,7 @@ class Student extends Person {
 }
 
 // Using the Class
-let alice = new Person("Alice", 25);
+const alice = new Person("Alice", 25);
 console.log(alice.introduce()); // Hi, I'm Alice and I'm 25 years old.
 console.log("Is Alice an adult?", alice.isAdult()); // true
 

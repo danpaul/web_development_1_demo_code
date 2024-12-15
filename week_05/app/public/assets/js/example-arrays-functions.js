@@ -34,22 +34,22 @@ numbers.forEach((num) => console.log(`Number: ${num}`));
 let doubledNumbers = numbers.map((num) => num * 2);
 console.log("Doubled Numbers:", doubledNumbers); // [2, 4, 6, 8, 10]
 
-// 3. filter - Creates a new array with elements that pass a condition
+// // 3. filter - Creates a new array with elements that pass a condition
 let evenNumbers = numbers.filter((num) => num % 2 === 0);
 console.log("Even Numbers:", evenNumbers); // [2, 4]
 
-// 4. reduce - Reduces the array to a single value
-let sum = numbers.reduce((acc, num) => acc + num, 0);
-console.log("Sum of Numbers:", sum); // 15
+// // 4. reduce - Reduces the array to a single value
+// let sum = numbers.reduce((acc, num) => acc + num, 0);
+// console.log("Sum of Numbers:", sum); // 15
 
-// 5. find - Returns the first element that matches a condition
+// // 5. find - Returns the first element that matches a condition
 let firstOdd = numbers.find((num) => num % 2 !== 0);
 console.log("First Odd Number:", firstOdd); // 1
 
-// 6. every - Checks if all elements satisfy a condition
-let allPositive = numbers.every((num) => num > 0);
-console.log("Are all numbers positive?", allPositive); // true
+// // 6. every - Checks if all elements satisfy a condition
+// let allPositive = numbers.every((num) => num > 0);
+// console.log("Are all numbers positive?", allPositive); // true
 
-// 7. some - Checks if at least one element satisfies a condition
-let hasNegative = numbers.some((num) => num < 0);
-console.log("Are there any negative numbers?", hasNegative); // false
+// // 7. some - Checks if at least one element satisfies a condition
+// let hasNegative = numbers.some((num) => num < 0);
+// console.log("Are there any negative numbers?", hasNegative); // false
